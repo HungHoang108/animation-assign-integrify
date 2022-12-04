@@ -1,0 +1,26 @@
+
+
+#check {
+  animation: checkmark 2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes checkmark {
+  0% {
+    transform: scale3d(0, 0, 0);
+  }
+  25% {
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
+/* 
+  75% {
+    transform: scale3d(0.6, 0.6, 0.6);
+  }
+  25% {
+    transform: scale3d(0.4, 0.4, 0.4);
+  } */
+}
